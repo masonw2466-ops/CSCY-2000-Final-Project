@@ -1,0 +1,13 @@
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("navigation-placeholder").innerHTML = `
+    <nav>
+		<ul>
+      		<li><a href="index.html">Home</a></li>
+      		<li><a href="page1.html">Page1</a></li>
+      		<li><a href="page2.html">Page2</a></li>
+      		<li><a href="page3.html">Page3</a></li>
+      		<li><a href="page4.html">Page4</a></li>
+		</ul>
+    </nav>
+  `;
+});
